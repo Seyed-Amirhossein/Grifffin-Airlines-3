@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Vazir-Medium";
+    src: url(./font/vazir/Vazirmatn-Medium.woff2)
+}
+
+body {
+    font-family: "Vazir", sans-serif;
+    direction: rtl;
+
+    background-image: url(../image/254367.png);
+    /*position: fixed;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid white 2px;
+    padding: 0;
+    padding-bottom: 3px;
+    margin: 50px 50px 0px 50px;  
+}
+
+.siteHeader__section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-1 {
+    margin-left: 45px;
+}
+
+.menu-2 {
+    margin-left: 20px;
+}
+
+.menu-3{
+    padding-right: 20px;
+    border-right: solid 1px white;
+}
+
+/*--------------------------------------------------------*/
+
+main {
+    height: 642px;
+}
+
+/*--------------------------------------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px 0 solid rgba(255, 255, 255, 0.7);
+
+   /* background-image: url(../../../image/footer-2.jpg);
+    background-size: cover; */
+    padding: 38px 0 0;
+
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+div.footer-1 span {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div.footer-2 span {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.style-hr-footer {
+    border: 0;
+    width: 400px;
+    height: 1.5px;
+    margin: 0 15px;
+    padding: 0 50px;
+    background: black;
+}
+
+.social-network {
+    color: black;
+    margin: 15px 12px 0px;
+}
+
+.social-network:hover {
+    color: #4E7C9E;
+}
+
+.logo-telegram {
+    margin-right: 6px;
+}
+
+.logo-griffin {
+    width: 280px;
+    height: 280px;
+}

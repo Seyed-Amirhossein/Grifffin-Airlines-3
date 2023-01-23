@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1 style="margin-bottom: 10px;">ساخت اکانت</h1>
+                <input type="text" placeholder="نام کاربری" />
+                <input type="text" placeholder="شماره همراه" />
+                <input type="password" placeholder="رمز ورود" />
+                <button style="margin-top: 10px;">ثبت نام</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <input type="text" placeholder="شماره همراه" />
+                <input type="password" placeholder="رمز ورود" />
+                <a href="#">رمز ورود خود را فراموش کرده‌اید ؟</a>
+                <button>ورود</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <button class="ghost" id="signIn">ورود</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <button class="ghost" id="signUp">ثبت نام</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const signUpButton = document.getElementById('signUp');
+        const signInButton = document.getElementById('signIn');
+        const container = document.getElementById('container');
+
+        signUpButton.addEventListener('click', () => {
+            container.classList.add("right-panel-active");
+        });
+
+        signInButton.addEventListener('click', () => {
+            container.classList.remove("right-panel-active");
+        });
+    </script>
+        
+</body>
+</html>
