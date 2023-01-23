@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Vazir", sans-serif;
+    direction: rtl;
+
+    background-image: url(../../../../image/al-soot-q9-rkEJfIG4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid white 2px;
+    padding: 0;
+    padding-bottom: 3px;
+    margin: 50px 50px 0px 50px;  
+}
+
+.siteHeader__section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-1 {
+    margin-left: 45px;
+}
+
+.menu-2 {
+    margin-left: 20px;
+}
+
+.menu-3{
+    padding-right: 20px;
+    border-right: solid 1px white;
+}
+
+/*--------------------------------------------------------*/
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 90px;
+    height: 642px;
+}
+
+.bg
+{
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px 0 solid rgba(255, 255, 255, 0.8);
+}
+
+.search-box-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.style-hr {
+    border: 0;
+    width: 100%;
+    height: 0.5px;
+    background: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    padding: 15px 18px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.arrangement-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrangement-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.round-trip-date {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input[type="radio"] {
+    accent-color: #002E5F;
+    width: 15px;
+    height: 15px;
+
+    margin-left: 5px;
+}
+
+input[type="text"] {
+    all: unset;
+
+    width: 78px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 3px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(24, 24, 24, 0.5);
+}
+
+input[type="date"] {
+    all: unset;
+    display: flex;
+    align-items: center;
+
+    width: calc(100% - 20px);
+    height: 30px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(24, 24, 24, 0.5);
+}
+
+.box-origin-destination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 41px;
+    margin-top: 20px;
+}
+
+[type="date"]::-webkit-datetime-edit {
+    display: flex;
+    justify-content: center;
+
+  }
+
+::-webkit-datetime-edit-month-field {
+    margin:0 10px;
+    margin-left: 11px;
+    padding: 0;
+    
+}
+
+::-webkit-datetime-edit-day-field {
+    margin:0 10px;
+    padding: 0;
+}
+
+::-webkit-datetime-edit-year-field {
+    margin-left: 10px;
+    padding: 0;
+}
+  
+::-webkit-clear-button {
+    font-size: 18px;
+    height: 30px;
+    position: relative;
+    right: 5px;
+    margin-right: 4px;
+}
+
+label small {
+    font-weight: bold;
+}
+
+.b-search {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+    background-color: #002E5F;
+
+    width: 130px;
+    padding: 9px 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.open {
+    display: none;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+}
+
+.click-flight-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 35px;
+}
+
+div.click-flight-information b {
+    margin-bottom: 8px;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+
+    padding: 10px 15px;
+   /* margin-top: 70px;*/
+    /*margin-right: 198px;*/
+    margin-bottom: 20px;
+    height: 30px;
+    width: 870px;
+}
+
+.arrow-icon {
+    font-size: 35px;
+    font-weight: 100;
+    margin-right: 15px;
+
+    margin-left: 463px;
+}
+
+button.b-sort {
+    all: unset;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+button.b-sort:hover {
+    color: #002E5F;
+}
+
+.ticket-went {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 900px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+.style-hr-2 {
+    border: 0;
+    width: 0.5px;
+    height: 100%;
+    margin: 0 10px;
+    background: black;
+}
+
+.account-1 {
+    display: flex;
+    align-items: center;   
+}
+
+.Flight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 40px 45px 0 45px;
+}
+
+.time {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.style-hr-arrow {
+    border: 0;
+    height: 0.8px;
+    background: black;
+}
+
+.style-hr-arrow-2 {
+    margin-left: 5px;
+}
+
+div svg {
+    margin: 0 4px;
+}
+
+.b-and-f {
+    width: 100px;
+    display: flex; 
+    justify-content: center;
+}
+
+.style-hr-3 {
+    border: 0;
+    width: 0.5px;
+    height: 120px;
+    background: black;
+}
+
+.style-hr-3-click {
+    border: 0;
+    width: 0.5px;
+    height: 210px;
+    background: black;
+}
+
+.selection {
+    all: unset;
+    color: white;
+    background-color: #002E5F;
+
+    padding: 7px 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.flight-information {
+    font-size: 0.8rem;
+    margin: 5px 0;
+
+    color: #002E5F;
+}
+
+.flight-information:hover {
+    color: #002E5F;
+    cursor: pointer;
+}
+
+.open , .close {
+    cursor: pointer;
+}
+
+.close-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0;
+    color:#002E5F;
+}
+
+.close-icon {
+    font-size: 1.1rem;
+    padding-top: 3px;
+    margin-left: 3px;
+}
+
+.style-hr-4 {
+    border: 0;
+    width: 100%;
+    height: 0.5px;
+    margin: 5px 0;
+    background: black;
+}
+
+.return-date
+{
+    display:none;
+}
+
+/*--------------------------------------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px 0 solid rgba(255, 255, 255, 0.7);
+
+   /* background-image: url(../../../image/footer-2.jpg);
+    background-size: cover; */
+    padding: 38px 0 0;
+
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+div.footer-1 span {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div.footer-2 span {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.style-hr-footer {
+    border: 0;
+    width: 400px;
+    height: 1.5px;
+    margin: 0 15px;
+    padding: 0 50px;
+    background: black;
+}
+
+.social-network {
+    color: black;
+    margin: 15px 12px 0px;
+}
+
+.social-network:hover {
+    color: #4E7C9E;
+}
+
+.logo-telegram {
+    margin-right: 6px;
+}
+
+.logo-griffin {
+    width: 280px;
+    height: 280px;
+}

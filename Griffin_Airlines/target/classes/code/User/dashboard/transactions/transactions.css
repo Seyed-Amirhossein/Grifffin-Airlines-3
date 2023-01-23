@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Vazir",sans-serif;
+    direction: rtl;
+
+    background-image: url(../../../../image/850499.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid white 2px;
+    padding: 0;
+    padding-bottom: 3px;
+    margin: 50px 50px 0px 50px;  
+}
+
+.siteHeader__section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-1 {
+    margin-left: 45px;
+}
+
+.menu-2 {
+    margin-left: 20px;
+}
+
+.menu-3{
+    padding-right: 20px;
+    border-right: solid 1px white;
+}
+
+/* --------------------------------------------------------- */
+
+.bg {
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.dashboard-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    font-size: 0.9rem;
+
+    width: auto;
+    height: auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.dashboard-menu a{
+    padding: 20px;
+    color: black;
+}
+
+div a{
+    display: flex;
+}
+
+div svg {
+    margin-left: 4px;
+}
+
+.style-hr {
+    border: 0;
+    width: 100%;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);   
+}
+
+.selected {
+    color: #416784;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.dashboard-account { 
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 642px;
+}
+
+.dashboard-account-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-0 {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    direction: ltr;
+
+    width: auto;
+    height: 450px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+  /*  margin-right: 80px; */
+  
+    border-right: 0;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 5px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(207, 215, 218, 0.6); 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(207, 215, 218, 0.9); 
+    border: rgb(0, 0, 0, 0.1) solid 0.5px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    direction: rtl;
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*tbody {
+    display: block;
+    max-height: 150px;
+    direction: ltr;
+    overflow: auto;
+}
+*/
+tr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+td, th {
+    width: 160px;
+}
+
+.top-bar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+
+    border-bottom: 2px solid black;
+}
+
+/*--------------------------------------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    padding: 38px 0 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+div.footer-1 span {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div.footer-2 span {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.style-hr-footer {
+    border: 0;
+    width: 400px;
+    height: 1.5px;
+    margin: 0 15px;
+    padding: 0 50px;
+    background: black;
+}
+
+.social-network {
+    color: black;
+    margin: 15px 12px 0px;
+}
+
+.social-network:hover {
+    color: #4E7C9E;
+}
+
+.logo-telegram {
+    margin-right: 6px;
+}
+
+.logo-griffin {
+    width: 280px;
+    height: 280px;
+}

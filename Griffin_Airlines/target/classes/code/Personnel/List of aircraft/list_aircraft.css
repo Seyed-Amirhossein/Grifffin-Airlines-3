@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Vazir", sans-serif;
+    direction: rtl;
+
+    background-image: url(../../../image/skyler-smith-jeS5GHIxwTw-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+    padding: 0;
+    padding-bottom: 3px;
+    margin: 50px 50px 0px 50px;  
+}
+
+.siteHeader__section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-1 {
+    margin-left: 45px;
+}
+
+/* --------------------------------------------------------- */
+
+.l-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+
+    background: rgba(122, 162, 187, 0.6);
+    width: 400px;
+    height: 44px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+input {
+    all: unset;
+    font-size: 16px;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    font-family: "Vazir";
+    color: black;
+    opacity: 0.7; 
+}
+
+svg {
+    color: black;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    direction: ltr;
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+
+    width: 150px;
+    height: 60px;
+    backdrop-filter: blur(3px);
+    background: rgba(122, 162, 187, 0.6);  
+    margin: 20px;  
+    border-radius: 5%;
+}
+
+.top-bar {
+    position: relative;
+    border-bottom: 2px solid black;
+}

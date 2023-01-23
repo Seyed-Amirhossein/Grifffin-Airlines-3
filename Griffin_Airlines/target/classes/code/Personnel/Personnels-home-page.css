@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Vazir", sans-serif;
+    direction: rtl;
+
+    background-image: url(../../image/pexels-ahmed-muntasir-912050-2.jpg);
+    /*position: fixed;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+    padding: 0;
+    padding-bottom: 3px;
+    margin: 50px 50px 0px 50px;  
+}
+
+.siteHeader__section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-1 {
+    margin-left: 45px;
+}
+
+/*--------------------------------------------------------*/
+
+main {
+    height: 642px;
+}

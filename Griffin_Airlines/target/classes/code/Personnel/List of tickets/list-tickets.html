@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./list-tickets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <menu>
+            <div class="siteHeader__section">
+                <a href="../Personnels-home-page.html" class="menu-1">صفحه اصلی</a>
+                <a href="../List of flights/list-flights.html" class="menu-1">لیست پرواز ها</a>
+                <a href="./list-tickets.html" class="menu-1">لیست بلیط ها</a>
+                <a href="../List of aircraft/list_aircraft.html" class="menu-1">لیست هواپیما ها</a>
+            </div>
+        </menu>
+    </header>
+
+    <main>
+        <div class="list-0">
+            <form role="" id="">
+                <input type="search" id="" name="" placeholder="مبدا" aria-label="">
+                <hr class="style-hr">
+                <input type="search" id="" name="" placeholder="مقصد" aria-label="">
+                <hr class="style-hr">
+                <input type="search" id="" name="" placeholder="تاریخ" aria-label="">
+                <button>
+                <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                </button>
+            </form>
+        </div>
+
+        <div class="list-0">
+            <div class="list">
+                <div class="table">
+                    <div class="tr top-bar">
+                        <b>شماره پرواز</b>
+                        <b>مبدا</b>
+                        <b>مقصد</b>
+                        <b>تاریخ</b>
+                        <b>ساعت</b>
+                        <b>نام و نام خانوادگی</b>
+                        <b>قیمت</b>
+                    </div>
+                    <hr class="style-hr-1" style="height: 2px;">
+                    <div class="arrangement-column">
+                        <div class="tr">
+                            <span>۸۲۳۳</span>
+                            <span>مشهد</span>
+                            <span>لاهیجان</span>
+                            <span>۱۴۰۰/۱۱/۱۲</span>
+                            <span>۰۳:۳۶</span>
+                            <span>اسما زمانی شهرنوی</span>
+                            <span>۳۳۰۰۰۰ تومان</span>
+                        </div>
+                        
+                        <small class="open">اطلاعات بلیط<i class="open fa fa-sort-down FI-icon"></i></small>
+                        
+                        <div class="display-none">    
+                            <div class="box">
+                                <div class="click-flight-information">
+                                    <b>مدل هواپیما</b>
+                                    <span>Fooker 100</span>
+                                </div>
+                                <div class="click-flight-information">
+                                    <b>پرواز</b>
+                                    <span>اکونومی</span>
+                                </div>
+                                <div class="click-flight-information">
+                                    <b>ترمینال</b>
+                                    <span>شماره ۸</span>
+                                </div>
+                                <div class="click-flight-information">
+                                    <b>شماره صندلی</b>
+                                    <span>۱۰</span>
+                                </div>
+                                <div class="click-flight-information">
+                                    <b>رده سنی</b>
+                                    <span>بزرگسال</span>
+                                </div>
+                                <div class="click-flight-information">
+                                    <b>کد ملی</b>
+                                    <span>۱۲۳۴۵۶۷۸۹۰</span>
+                                </div>
+                            </div>    
+                            
+                            <small class="close"><span class="close-icon">&#215;</span>بستن</small>                
+                        </div>
+                    </div>
+                    <hr class="style-hr-1">
+                    
+
+                </div>
+            </div>    
+        </div>
+
+    </main>
+    
+
+    <script>
+        let Open = document.querySelector('.open');
+        let Close = document.querySelector('.close');
+        let display_none = document.querySelector('.display-none');
+        Open.addEventListener('click' , () => {
+            display_none.style.display = 'flex';
+            Open.style.display = 'none';
+        })
+        Close.addEventListener('click' , () => {
+            display_none.style.display = 'none';
+            Open.style.display = 'inline';
+        })
+    </script>
+
+</body>
+</html>

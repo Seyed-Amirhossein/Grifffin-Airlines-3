@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Vazir-Medium";
+    src: url(../font/vazir/Vazirmatn-Medium.woff2)
+}
+
+@font-face {
+    font-family: "Vazir-Bold";
+    src: url(../font/vazir/Vazirmatn-Bold.woff2)
+}
+
+body {
+    font-family: "Vazir", sans-serif;
+    direction: rtl;
+
+    background-image: url(../../../image/white-lufthansa-airplane-4k-5nfnmo7ntreg4lip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+    padding: 0;
+    padding-bottom: 3px;
+    margin: 50px 50px 0px 50px;  
+}
+
+.siteHeader__section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-1 {
+    margin-left: 45px;
+}
+
+.menu-2 {
+    margin-left: 20px;
+}
+
+.menu-3{
+    padding-right: 20px;
+    border-right: solid 1px black;
+}
+
+/* --------------------------------------------------------- */
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 642px;
+}
+
+form {    
+    border-radius: 12px;
+    background: rgba(122, 162, 187, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(122, 162, 187, 0.7);
+
+    width: 400px;
+    height: 30px;
+    
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+
+    padding: 8px 0;
+    margin: 50px 0 20px;
+}
+
+form svg:hover {
+    color: #416784;
+}
+
+input {
+    all: unset;
+    font-size: 16px;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    font-family: "Vazir";
+    color: black;
+    opacity: 0.7; 
+}
+
+svg {
+    color: black;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.style-hr {
+    border: 0;
+    width: 1px;
+    height: 100%;
+    background: black;
+}
+
+.list-0 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    direction: ltr;
+
+    width: auto;
+    height: 450px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border-radius: 12px;
+    background: rgba(122, 162, 187, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(122, 162, 187, 0.7);
+    border-right: 0;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 5px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(207, 215, 218, 0.6); 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(122, 162, 187, 0.8); 
+    border: rgb(0, 0, 0, 0.1) solid 0.5px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    direction: rtl;
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+td, th {
+    width: 130px;
+}
+
+.top-bar {
+    position: relative;
+    border-bottom: 2px solid black;
+}
